@@ -1,0 +1,30 @@
+.movieList {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+
+  .movie {
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    text-transform: uppercase;
+  }
+
+  .posterImage {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 450px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .posterImage:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+}

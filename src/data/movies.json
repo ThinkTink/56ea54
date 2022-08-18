@@ -1,0 +1,174 @@
+{
+  "genre": [
+    "anime",
+    "action",
+    "comedy",
+    "crime",
+    "drama",
+    "documentary",
+    "fantasy",
+    "horror",
+    "kids",
+    "mystery",
+    "musical",
+    "science fiction",
+    "thriller"
+  ],
+
+  "movies": [
+    {
+      "id": 1,
+      "bannerImage": "https://images.mubicdn.net/images/film/129405/cache-112828-1647520890/image-w1280.jpg",
+      "posterImage": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cea02018401907.562c8df284c32.jpg",
+      "title": "True Detective",
+      "synopsis": "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
+      "genre": ["action", "crime", "thriller"],
+      "rating": 1
+    },
+    {
+      "id": 2,
+      "bannerImage": "https://i.ytimg.com/vi/YOkz_xATU_w/maxresdefault.jpg",
+      "posterImage": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781476716480/star-trek-into-darkness-9781476716480_hr.jpg",
+      "title": "Star Trek: Into The Darkness",
+      "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
+      "genre": ["science fiction"],
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "bannerImage": "https://wallpapers.com/images/high/blade-runner-2049-cartoon-rendition-8joun0rimccai45v.jpg",
+      "posterImage": "https://cdna.artstation.com/p/assets/images/images/019/322/956/large/pascal-blanche-bladerunner-blue-logo2.jpg?1562958268",
+      "title": "Blade Runner 2049",
+      "synopsis": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+      "genre": ["science fiction"],
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "bannerImage": "https://thescriptlab.com/wp-content/uploads/2017/06/silence.jpg",
+      "posterImage": "https://www.themoviedb.org/t/p/original/kdHWRQpShAHfE7Q1a7Pdavd2uTl.jpg",
+      "title": "The Silence of the Lambs",
+      "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+      "genre": ["crime", "thriller"],
+      "rating": 4
+    },
+
+    {
+      "id": 6,
+      "bannerImage": "https://wallpaperaccess.com/full/2007905.jpg",
+      "posterImage": "https://i.pinimg.com/originals/c7/a2/2c/c7a22c4d4af5ddc3a1753ed09f49797a.jpg",
+      "title": "Dorohedoro",
+      "synopsis": "In Hole—a dark, decrepit, and disorderly district where the strong prey on the weak and death is an ordinary occurrence, a clan of sorcerers use its people to experiment with the dark arts.",
+      "genre": ["anime", "fantasy"],
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "bannerImage": "https://images5.alphacoders.com/585/585645.png",
+      "posterImage": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "title": "Interstellar",
+      "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "genre": ["science fiction"],
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "bannerImage": "https://cdn.mos.cms.futurecdn.net/3JCaEkiSwWKAwgLMjpChF3.jpg",
+      "posterImage": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/spiderman-poster-design-template-e9971a8ecf28f85ec6fa7f15730dbce5_screen.jpg?ts=1636993459",
+      "title": "Spider-Man",
+      "synopsis": "When bitten by a genetically modified spider, Peter Parker gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+      "genre": ["action", "superhero"],
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "bannerImage": "https://i.pinimg.com/originals/3c/d7/c7/3cd7c70cc73958ef513586bae730e6a5.jpg",
+      "posterImage": "https://cdn.wallpapersafari.com/65/45/nZxy0a.jpg",
+      "title": "Encanto",
+      "synopsis": "A Colombian teenage girl has to face the frustration of being the only member of her family without magical powers.",
+      "genre": ["musical", "kids"],
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "bannerImage": "https://images.hdqwalls.com/wallpapers/batman-2020-dark-knight-uz.jpg",
+      "posterImage": "https://i.pinimg.com/550x/9a/b5/85/9ab5853ef2e904e353f120a0436a9148.jpg",
+      "title": "The Dark Knight",
+      "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genre": ["superhero", "action", "noir"],
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "bannerImage": "https://wallpaperaccess.com/full/2820502.jpg",
+      "posterImage": "https://m.media-amazon.com/images/I/81Z4sJVge8L._AC_SL1500_.jpg",
+      "title": "Parasite",
+      "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "genre": ["thriller", "mystery"],
+      "rating": 3
+    },
+    {
+      "id": 12,
+      "bannerImage": "https://www.wallpapertip.com/wmimgs/14-148175_crowd.jpg",
+      "posterImage": "https://images.moviesanywhere.com/cac313fcf9373e9446b6bb8ff171b8d1/8b8d6a81-b8e6-49ad-b835-32c2f01a03c5.jpg",
+      "title": "Zootopia",
+      "synopsis": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+      "genre": ["kids", "comedy"],
+      "rating": 4
+    },
+    {
+      "id": 13,
+      "bannerImage": "https://images5.alphacoders.com/614/614690.jpg",
+      "posterImage": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "title": "Lord of the Rings",
+      "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "genre": ["fantasy", "action"],
+      "rating": 5
+    },
+    {
+      "id": 14,
+      "bannerImage": "https://wallpapers-hub.art/wallpaper-images/476729.jpg",
+      "posterImage": "https://static.squarespace.com/static/52fc05c9e4b08fc45bd99090/5331dfe2e4b0f77da2ddde51/5331dfe3e4b0f77da2dde079/1300302735113/1000w/got-ned-poster.jpg",
+      "title": "Game of Thrones",
+      "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+      "genre": ["fantasy", "action"],
+      "rating": 4
+    },
+    {
+      "id": 15,
+      "bannerImage": "https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2020/10/26/232756_1346454.jpg.1500x999_q95_crop-smart_upscale.jpg",
+      "posterImage": "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
+      "title": "Inception",
+      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "genre": ["science fiction", "action"],
+      "rating": 3
+    },
+    {
+      "id": 16,
+      "bannerImage": "https://m.media-amazon.com/images/M/MV5BYTRlNGE3YjctMDlhYy00MzkzLTg0ZjAtNzY4MmJlMDliMWZlXkEyXkFqcGdeQWFybm8@._V1_.jpg",
+      "posterImage": "https://creativereview.imgix.net/content/uploads/2020/12/av_maud.jpg?auto=compress,format&q=60&w=1013&h=1500",
+      "title": "Saint Maud",
+      "synopsis": "A pious nurse becomes dangerously obsessed with saving the soul of her dying patient.",
+      "genre": ["horror"],
+      "rating": 2
+    },
+    {
+      "id": 17,
+      "bannerImage": "https://media.newyorker.com/photos/5d23b6746157520008b1d877/master/pass/Brody-Midsommar.jpgg",
+      "posterImage": "https://creativereview.imgix.net/content/uploads/2019/12/midsommar_ver2_xxlg.jpg?auto=compress,format&q=60&w=1013&h=1500",
+      "title": "Midsommar",
+      "synopsis": "An idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+      "genre": ["horror"],
+      "rating": 5
+    },
+    {
+      "id": 18,
+      "bannerImage": "https://www.denofgeek.com/wp-content/uploads/2020/12/Attack-On-Titan-Final-Season-Titan-Crowd-Header.jpg?fit=1200%2C685",
+      "posterImage": "https://www.denofgeek.com/wp-content/uploads/2020/09/Attack-on-Titan-Season-4-Poster.jpg?resize=725,1024",
+      "title": "Attack on Titan",
+      "synopsis": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+      "genre": ["action", "anime", "fantasy"],
+      "rating": 5
+    }
+  ]
+}

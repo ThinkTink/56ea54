@@ -1,0 +1,41 @@
+@import "palette";
+
+.searchBarWrapper {
+  .searchBar {
+    display: flex;
+    align-items: center;
+
+    .filter {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+
+  .icon {
+    width: 20px;
+    color: white;
+  }
+
+  .deleteIcon {
+    width: 10px;
+  }
+
+  .tagsContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .selectedTag {
+    border: 1px white solid;
+    width: max-content;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .selectedTag:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+}
