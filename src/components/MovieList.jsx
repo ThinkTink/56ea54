@@ -20,11 +20,11 @@ function MovieList({ movies }) {
   };
 
   return (
-    <div className="movieList">
-      {movies.map((movie) => (
-        <Movie movie={movie} />
-      ))}
-    </div>
+      <div className="movieList">
+        {movies.map((movie) => (
+            <Movie movie={movie} />
+        ))}
+      </div>
   );
 }
 
