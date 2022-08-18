@@ -1,45 +1,44 @@
 .stars {
 
-    .subtitle{
-      display: inline;
-    }
-  
-    ul{
-      display: inline;
-      align-self: center;
-    }
-  
-    ul li {
-      display: inline;
-      align-content: center;
-    }
-    .filled{
-      color: #FFF000;
-    }
-  
-    .icon empty{
-      outline: grey;
-    }
-  
-    li:nth-child(1){
-      opacity: 60%;
-    }
-  
-    li:nth-child(2){
-       opacity: 70%;
-    }
-  
-    li:nth-child(3){
-      opacity: 80%;
-    }
-  
-    li:nth-child(4){
-      opacity: 90%;
-    }
-  
-    li:nth-child(5){
-      opacity: 100%;
-    }
-  
+  .subtitle{
+    display: inline;
   }
-  
+
+  ul{
+    display: inline;
+    align-self: center;
+  }
+
+  ul li {
+    display: inline;
+    align-content: center;
+  }
+  .filled{
+    color: #FFF000;
+  }
+
+  .icon empty{
+    outline: grey;
+  }
+
+  li:nth-child(1){
+    opacity: 60%;
+  }
+
+  li:nth-child(2){
+     opacity: 70%;
+  }
+
+  li:nth-child(3){
+    opacity: 80%;
+  }
+
+  li:nth-child(4){
+    opacity: 90%;
+  }
+
+  li:nth-child(5){
+    opacity: 100%;
+  }
+
+}
