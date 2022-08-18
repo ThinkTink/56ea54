@@ -4,12 +4,36 @@ import { XIcon } from "@heroicons/react/solid";
 
 import "../css/searchbar.scss";
 import useSearch from "../hooks/useSearch";
+import tagFilter from "../hooks/tagFilter";
 
 function SearchBar({ movies, genreList, setFilteredMovies }) {
   const [title, setTitle] = useState("");
   const [selectedTags, setSelectedTags] = useState([]);
+  /*
+   Ideally I wanted to check if a tag had been selected, in doing so continue to filter the list of movies by removing
+   the ones that do not contain the corresponding Genre tag selected.
 
-  const filteredMovies = useSearch(movies, title);
+   if(selectedTags.length>0){
+      movies = tagFilter(filteredMovies,selectedTags);
+   }
+   I figured doing this before filtering the movies using the search term would make it easier to filter using the term.
+  **/
+
+
+  let filteredMovies = useSearch(movies, title);
+
+
+/*
+  I then tried filtering using the search term and then trying to filter using the genre tags selected.
+
+  if(selectedTags.length>0){
+    filteredMovies = tagFilter(filteredMovies,selectedTags);
+  }
+
+  I realised that doing this wouldn't update the list of movies after selecting the genre, meaning the user would have
+  to input the search term again, or at least press enter to search again rather than search automatically.
+ **/
+
 
   useEffect(() => {
     setFilteredMovies(filteredMovies);
@@ -28,6 +52,8 @@ function SearchBar({ movies, genreList, setFilteredMovies }) {
       setSelectedTags(newSelectedTags);
     }
   };
+
+
 
   const deleteTag = (tag) => {};
 
